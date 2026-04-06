@@ -34,16 +34,16 @@ class LLMTTranslateResponse(BaseModel):
 def build_prompt(request: LLMTTranslateRequest) -> str:
     parts = []
     if request.previous_sentence:
-        parts.append(f"Previous sentence: {request.previous_sentence}")
+        parts.append(f"Previous sentence:\n{request.previous_sentence}")
     if request.terminology:
-        terms = "; ".join(f"{t.source} → {t.target}" for t in request.terminology)
-        parts.append(f"Terminology: {terms}")
+        terms = "\n".join(f"{t.source} → {t.target}" for t in request.terminology)
+        parts.append(f"Terminology:\n{terms}")
     if request.similar_translations:
-        examples = "\n".join(f"  {st.source} → {st.target}" for st in request.similar_translations)
+        examples = "\n".join(f"  SRC: {st.source}\n  TGT: {st.target}" for st in request.similar_translations)
         parts.append(f"Similar translations:\n{examples}")
     parts.append(
-        f"Translate the following sentence into {request.target_language}. "
-        f"Output only the translation, with no extra text:\n{request.sentence}"
+         f"Using the available context, translate the following sentence into {request.target_language}. "
+        f"Output only the translation, with no extra text:\nInput:\n{request.sentence}\nOutput:\n"
     )
     return "\n\n".join(parts)
 
