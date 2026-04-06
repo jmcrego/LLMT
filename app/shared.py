@@ -1,6 +1,6 @@
 import threading
 
-DEFAULT_MODEL = "mistralai/Ministral-3-3B-Instruct-2512-GGUF"
+DEFAULT_MODEL = "gemma3:4b"
 
 # Shared model state for the app
 model_store = {"model": DEFAULT_MODEL}

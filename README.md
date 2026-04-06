@@ -3,32 +3,20 @@
 A FastAPI application for sentence translation using Large Language Models served via **ollama**. Supports health monitoring, dynamic model loading, and context-aware translation with optional terminology and fuzzy-match hints.
 
 ## Features
-- Loads `mistralai/Ministral-3-3B-Instruct-2512-GGUF` as the default model at startup
+- Loads `gemma3:4b` as the default model at startup
 - `/health`: Returns the currently loaded model and service status
 - `/upload`: Pull and activate any model supported by ollama
 - `/translate`: Translate a sentence into a target language, with optional context (previous sentence, terminology, similar translations)
 
-## Load `mistralai/Ministral-3-3B-Instruct-2512-GGUF` with Ollama
+## Load `gemma3:4b` with Ollama
 
-For Hugging Face-hosted GGUF models, use the `hf.co/` prefix with Ollama.
-
-### Run directly
+### Pull and run
 ```bash
-ollama run hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF
+ollama pull gemma3:4b
+ollama run gemma3:4b
 ```
 
-### Pull a specific quantization, then run
-```bash
-ollama pull hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF:Q4_K_M
-ollama run hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF:Q4_K_M
-```
-
-### Suggested quantization by available RAM (Mac)
-- `Q4_K_M`: best default for most machines (good speed/quality balance)
-- `Q5_K_M`: if you have more RAM and want a bit more quality
-- `Q8_0`: highest quality, much heavier memory usage
-
-If you are unsure, start with `Q4_K_M`.
+`gemma3:4b` is a strong multilingual choice in the 3-4B range for translation tasks.
 
 ## Endpoints
 
@@ -41,7 +29,7 @@ Pull a model via ollama and set it as the active translation model.
 **Request (JSON):**
 ```json
 {
-  "model": "hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF:Q4_K_M"
+  "model": "gemma3:4b"
 }
 ```
 
@@ -199,7 +187,7 @@ curl http://localhost:8003/health
 ```bash
 curl -X POST "http://localhost:8003/upload" \
   -H "Content-Type: application/json" \
-  -d '{"model": "mistral"}'
+  -d '{"model": "gemma3:4b"}'
 ```
 
 ### Translate a Sentence
@@ -214,17 +202,28 @@ curl -X POST "http://localhost:8003/translate" \
 
 ### Translate with Context
 ```bash
-curl -X POST "http://localhost:8003/translate" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "sentence": "The cat sat on the mat.",
-    "target_language": "French",
-    "previous_sentence": "It was a sunny day.",
-    "terminology": [{"source": "cat", "target": "chat"}],
-    "similar_translations": [
-      {"source": "The dog sat on the mat.", "target": "Le chien était assis sur le tapis."}
-    ]
-  }'
+curl -sS -X POST "http://localhost:8003/translate" \
+  -H "Content-Type: application/json; charset=utf-8" \
+  --data-binary @- <<'JSON'
+{
+  "sentence": "Open the settings panel.",
+  "target_language": "Spanish",
+  "previous_sentence": "Click the gear icon in the top right.",
+  "terminology": [
+    {"source": "settings panel", "target": "panel de configuración"}
+  ],
+  "similar_translations": [
+    {"source": "Open the dashboard.", "target": "Abre el panel de control."}
+  ]
+}
+JSON
+```
+
+If your terminal locale is not UTF-8, run this once before calling curl:
+
+```bash
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
 ```
 
 ## Directory Structure
