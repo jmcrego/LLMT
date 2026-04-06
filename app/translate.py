@@ -31,6 +31,7 @@ class LLMTTranslateResponse(BaseModel):
     runtime_ms: float = 0
 
 
+
 def build_prompt(request: LLMTTranslateRequest) -> str:
     parts = []
     if request.previous_sentence:
