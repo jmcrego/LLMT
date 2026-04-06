@@ -46,7 +46,105 @@ Fields `previous_sentence`, `terminology`, and `similar_translations` are option
 ## Setup
 
 ### Prerequisites
-- [ollama](https://ollama.com/) installed and running locally (`ollama serve`)
+- [ollama](https://ollama.com/) installed and running locally (see "Install and Launch Ollama (macOS)" below)
+
+### Install and Launch Ollama (macOS)
+
+1. Install Ollama with Homebrew:
+  ```bash
+  brew install ollama
+  ```
+
+2. Start Ollama as a background service:
+  ```bash
+  brew services start ollama
+  ```
+
+3. Verify the CLI is available:
+  ```bash
+  ollama --version
+  ```
+
+4. Verify the local Ollama API is reachable:
+  ```bash
+  curl -sS http://localhost:11434/api/tags
+  ```
+
+5. Optional: check service status:
+  ```bash
+  brew services list | grep '^ollama[[:space:]]'
+  ```
+
+If Homebrew is not installed, install it first from https://brew.sh.
+
+### Install and Launch Ollama (Linux)
+
+1. Install Ollama:
+  ```bash
+  curl -fsSL https://ollama.com/install.sh | sh
+  ```
+
+2. Start Ollama:
+  ```bash
+  ollama serve
+  ```
+
+3. Verify the local Ollama API is reachable:
+  ```bash
+  curl -sS http://localhost:11434/api/tags
+  ```
+
+If your system uses systemd, you can run Ollama as a background service:
+
+```bash
+sudo systemctl enable --now ollama
+systemctl status ollama
+```
+
+### Troubleshooting Ollama
+
+1. `ollama: command not found`
+   - macOS (Homebrew):
+     ```bash
+     brew install ollama
+     ```
+   - Linux:
+     ```bash
+     curl -fsSL https://ollama.com/install.sh | sh
+     ```
+   - Open a new terminal after installation, then run:
+     ```bash
+     ollama --version
+     ```
+
+2. Port `11434` already in use
+   - Find the process using the port:
+     ```bash
+     lsof -i :11434
+     ```
+   - Stop the conflicting process or stop existing Ollama instance:
+     ```bash
+     brew services stop ollama
+     ```
+     or on Linux:
+     ```bash
+     sudo systemctl stop ollama
+     ```
+
+3. Ollama service fails to start
+   - macOS:
+     ```bash
+     brew services list | grep '^ollama[[:space:]]'
+     ```
+   - Linux:
+     ```bash
+     systemctl status ollama
+     journalctl -u ollama -n 100 --no-pager
+     ```
+   - API health check:
+     ```bash
+     curl -sS http://localhost:11434/api/tags
+     ```
 
 ### Installation
 
