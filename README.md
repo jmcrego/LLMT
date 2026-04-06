@@ -8,6 +8,28 @@ A FastAPI application for sentence translation using Large Language Models serve
 - `/upload`: Pull and activate any model supported by ollama
 - `/translate`: Translate a sentence into a target language, with optional context (previous sentence, terminology, similar translations)
 
+## Load `mistralai/Ministral-3-3B-Instruct-2512-GGUF` with Ollama
+
+For Hugging Face-hosted GGUF models, use the `hf.co/` prefix with Ollama.
+
+### Run directly
+```bash
+ollama run hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF
+```
+
+### Pull a specific quantization, then run
+```bash
+ollama pull hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF:Q4_K_M
+ollama run hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF:Q4_K_M
+```
+
+### Suggested quantization by available RAM (Mac)
+- `Q4_K_M`: best default for most machines (good speed/quality balance)
+- `Q5_K_M`: if you have more RAM and want a bit more quality
+- `Q8_0`: highest quality, much heavier memory usage
+
+If you are unsure, start with `Q4_K_M`.
+
 ## Endpoints
 
 ### `GET /health`
@@ -19,7 +41,7 @@ Pull a model via ollama and set it as the active translation model.
 **Request (JSON):**
 ```json
 {
-  "model": "mistralai/Ministral-3-3B-Instruct-2512-GGUF"
+  "model": "hf.co/mistralai/Ministral-3-3B-Instruct-2512-GGUF:Q4_K_M"
 }
 ```
 
