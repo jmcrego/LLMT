@@ -100,7 +100,7 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
     try:
         response = ollama.generate(model=model, prompt=prompt)
         translation = (response.get("response") or "")
-        logger.info(f"\nTRANSLATION\n{'-'*80}\n{translation}\n{'-'*80}")
+        logger.info(f"\nTRANSLATION\n{'#'*80}\n{translation}\n{'#'*80}")
         translation = translation.replace("⏎", "\n")
     except Exception as e:
         logger.error(f"Translation failed: {e}")

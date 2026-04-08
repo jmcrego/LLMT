@@ -1371,3 +1371,61 @@ TRANSLATION
 Elle est arrivée⏎⏎hier.
 
 --------------------------------------------------------------------------------
+2026-04-09 00:35:02,363 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president.' target_language='fr' previous_sentence=None terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 00:35:02,363 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate the text between [START] and [END] into fr.
+
+RULES:
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎, the output must also insert them in the same positions.
+
+[START]
+The president.
+[END]
+
+Output:
+
+================================================================================
+2026-04-09 00:35:02,883 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:35:02,884 [INFO] translate: 
+TRANSLATION
+--------------------------------------------------------------------------------
+Le président.
+
+--------------------------------------------------------------------------------
+2026-04-09 00:35:02,893 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='She arrived\n\nyesterday.' target_language='fr' previous_sentence=None terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 00:35:02,894 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate the text between [START] and [END] into fr.
+
+RULES:
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎, the output must also insert them in the same positions.
+
+[START]
+She arrived⏎⏎yesterday.
+[END]
+
+Output:
+
+================================================================================
+2026-04-09 00:35:03,408 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:35:03,408 [INFO] translate: 
+TRANSLATION
+--------------------------------------------------------------------------------
+Elle est arrivée⏎⏎hier.
+
+--------------------------------------------------------------------------------
