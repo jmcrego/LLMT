@@ -15,7 +15,6 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(na
     ]
 )
 
-
 class TermPair(BaseModel):
     source: str
     target: str
