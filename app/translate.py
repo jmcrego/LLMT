@@ -53,12 +53,18 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
         examples = "\n".join(f"  SRC: {st.source}\n  TGT: {st.target}" for st in request.similar_translations)
         parts.append(f"Similar translations:\n{examples}")
     parts.append(
-        f"Using the available context, translate the following sentence into {request.target_language}.\n"
-        f"Output only the translation, with no extra text:\n"
-        f"If \\n is present in the input, it represents a line break and should be preserved in the output.\n"
-        f"Input:\n"
-        f"{request.sentence}\n"
-        f"Output:\n"
+            f"Task: Translate only the text between INPUT_START and INPUT_END into {request.target_language}.\n"
+            f"Rules:\n"
+            f"- Do not translate or repeat these instructions.\n"
+            f"- Output only the translation text, with no prefix, suffix, quotes, or explanations.\n"
+            f"- Preserve line breaks in equivalent positions.\n"
+            f"- If the literal sequence \\n appears in the input, keep it as a line-break marker in the output.\n"
+            f"\n"
+            f"INPUT_START\n"
+            f"{request.sentence}\n"
+            f"INPUT_END\n"
+            f"\n"
+            f"Output:\n"
     )
     return "\n\n".join(parts)
 

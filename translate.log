@@ -158,3 +158,23 @@ TRANSLATION
 Où es-tu maintenant ?
 
 --------------------------------------------------
+2026-04-08 23:36:00,454 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr.
+Output only the translation, with no extra text:
+If \n is present in the input, it represents a line break and should be preserved in the output.
+Input:
+She 
+
+carries the new jacket.
+Output:
+
+==================================================
+2026-04-08 23:36:04,190 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:36:04,191 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Si \n est présent dans l'entrée, il représente un saut de ligne et doit être conservé dans la sortie.
+
+--------------------------------------------------
