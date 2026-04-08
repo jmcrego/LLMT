@@ -837,3 +837,187 @@ TRANSLATION
 Elle est arrivée hier.⏎⏎⏎⏎
 
 --------------------------------------------------
+2026-04-09 00:03:29,247 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+The president.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:03:32,402 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:03:32,402 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président.
+
+--------------------------------------------------
+2026-04-09 00:03:32,426 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She arrived⏎⏎⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:03:33,152 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:03:33,153 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée⏎⏎⏎⏎⏎hier.
+
+--------------------------------------------------
+2026-04-09 00:03:43,269 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She ⏎⏎arrived⏎⏎⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:03:43,572 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She ⏎⏎⏎arrived⏎⏎⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:03:44,002 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:03:44,002 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle ⏎⏎⏎⏎⏎est arrivée hier.
+
+--------------------------------------------------
+2026-04-09 00:03:44,499 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:03:44,500 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle ⏎⏎⏎est arrivée⏎⏎⏎⏎⏎hier.
+
+--------------------------------------------------
+2026-04-09 00:05:13,363 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She ⏎⏎⏎arrived⏎⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:05:13,661 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She ⏎⏎⏎arrived⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:05:14,226 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:05:14,226 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle ⏎⏎⏎est arrivée⏎⏎⏎⏎hier.
+
+--------------------------------------------------
+2026-04-09 00:05:14,679 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:05:14,680 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle ⏎⏎⏎est arrivée⏎⏎⏎hier.
+
+--------------------------------------------------
+2026-04-09 00:05:14,741 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She ⏎⏎⏎arrived⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:05:15,364 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:05:15,365 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle ⏎⏎⏎est arrivée⏎⏎hier.
+
+--------------------------------------------------
+2026-04-09 00:05:16,312 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If the input contain symbols ⏎. the output must also insert them in the same positions.
+
+[START]
+She ⏎⏎arrived⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-09 00:05:16,924 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 00:05:16,925 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle ⏎⏎est arrivée⏎⏎hier.
+
+--------------------------------------------------
