@@ -791,3 +791,49 @@ Elle est arrivée
 hier.
 
 --------------------------------------------------
+2026-04-08 23:57:52,280 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- The input may contain the symbol ⏎ which represents a line break. Keep every ⏎ exactly as-is in the output, in the same positions.
+
+[START]
+The president.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:57:52,833 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:57:52,834 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président.
+
+--------------------------------------------------
+2026-04-08 23:57:52,844 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- The input may contain the symbol ⏎ which represents a line break. Keep every ⏎ exactly as-is in the output, in the same positions.
+
+[START]
+She arrived⏎⏎⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:57:53,444 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:57:53,445 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée hier.⏎⏎⏎⏎
+
+--------------------------------------------------

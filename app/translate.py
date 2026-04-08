@@ -57,7 +57,7 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
             f"Rules:\n"
             f"- Do not translate or repeat these instructions.\n"
             f"- Output only the translation text, with no prefix, suffix, quotes, or explanations.\n"
-            f"- The input may contain the symbol ⏎ which represents a line break. Keep every ⏎ exactly as-is in the output, in the same positions.\n"
+            f"- If the input contain symbols ⏎. the output must also insert them in the same positions.\n"
             f"\n"
             f"[START]\n"
             f"{request.sentence}\n"
