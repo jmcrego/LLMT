@@ -94,11 +94,11 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
         terminology=request.terminology,
         similar_translations=request.similar_translations,
     ))
-    logger.info(f"\n{'='*50}\nPROMPT\n{prompt}\n{'='*50}")
+    logger.info(f"\nPROMPT\n{'='*50}\n{prompt}\n{'='*50}")
     try:
         response = ollama.generate(model=model, prompt=prompt)
         translation = (response.get("response") or "")
-        logger.info(f"\n{'-'*50}\nTRANSLATION\n{translation}\n{'-'*50}")
+        logger.info(f"\nTRANSLATION\n{'-'*50}\n{translation}\n{'-'*50}")
         translation = translation.replace("⏎", "\n")
     except Exception as e:
         logger.error(f"Translation failed: {e}")
