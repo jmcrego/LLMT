@@ -55,13 +55,13 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
         parts.append("")
 
     if request.terminology:
-        parts.append("Use the following terminology when translating:")
+        parts.append("Preferred terminology (use when applicable; inflect as needed):")
         for t in request.terminology:
-            parts.append(f" - {t.source} → {t.target}")
+            parts.append(f"- {t.source} → {t.target}")
         parts.append("")
 
     if request.similar_translations:
-        parts.append(f"Similar translations:")
+        parts.append("Reference translations (use when helpful to keep new translations consistent):")
         for st in request.similar_translations:
             parts.append(
                 f"- SRC: {st.source}\n"
