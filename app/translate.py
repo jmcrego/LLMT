@@ -15,6 +15,8 @@ logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(na
     ]
 )
 
+logger = logging.getLogger("translate")
+
 class TermPair(BaseModel):
     source: str
     target: str
