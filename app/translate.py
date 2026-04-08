@@ -57,8 +57,7 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
             f"Rules:\n"
             f"- Do not translate or repeat these instructions.\n"
             f"- Output only the translation text, with no prefix, suffix, quotes, or explanations.\n"
-            f"- If line-breaks appear in the input, keep them in the output.\n"
-            f"- Preserve line breaks in equivalent positions.\n"
+            f"- The input may contain the symbol ⏎ which represents a line break. Keep every ⏎ exactly as-is in the output, in the same positions.\n"
             f"\n"
             f"[START]\n"
             f"{request.sentence}\n"
@@ -73,18 +72,27 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
     tic = time.perf_counter()
     with model_lock:
         model = model_store["model"]
-    prompt = build_prompt(request)
+    sentence_for_prompt = request.sentence.replace("\n", "⏎")
+    prompt = build_prompt(LLMTTranslateRequest(
+        sentence=sentence_for_prompt,
+        target_language=request.target_language,
+        previous_sentence=request.previous_sentence,
+        terminology=request.terminology,
+        similar_translations=request.similar_translations,
+    ))
     logger.info(f"\n{'='*50}\nPROMPT\n{prompt}\n{'='*50}")
     try:
         response = ollama.generate(model=model, prompt=prompt)
-        translation = response.get("response") or ""
+        translation = (response.get("response") or "")
+        logger.info(f"\n{'-'*50}\nTRANSLATION\n{translation}\n{'-'*50}")
+        translation = translation.replace("⏎", "\n")
     except Exception as e:
         logger.error(f"Translation failed: {e}")
         raise HTTPException(status_code=500, detail=f"Translation failed: {e}")
     runtime_s = time.perf_counter() - tic
-    logger.info(f"\n{'-'*50}\nTRANSLATION\n{translation}\n{'-'*50}")
     return LLMTTranslateResponse(
         translation=translation,
         model=model,
         runtime_ms=runtime_s * 1000,
     )
+

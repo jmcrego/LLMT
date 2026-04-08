@@ -330,3 +330,464 @@ TRANSLATION
 Elle\nporte la nouvelle veste.
 
 --------------------------------------------------
+2026-04-08 23:49:26,835 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+f"- If the literal sequence line-breaks appear in the input, keep them in the output.\n"
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:27,952 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:27,952 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+- Si la séquence littérale de retours de ligne apparaît dans l'entrée, conservez-la dans la sortie.
+
+--------------------------------------------------
+2026-04-08 23:49:28,702 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+S
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:29,107 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:29,110 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+S
+
+--------------------------------------------------
+2026-04-08 23:49:29,118 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+Sh
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:29,382 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:29,480 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:29,481 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Sh
+
+--------------------------------------------------
+2026-04-08 23:49:29,723 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:29,725 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle
+
+--------------------------------------------------
+2026-04-08 23:49:31,770 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+The presidon
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:32,186 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:32,186 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président
+
+--------------------------------------------------
+2026-04-08 23:49:32,619 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+The president
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:33,033 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:33,033 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président
+
+--------------------------------------------------
+2026-04-08 23:49:36,819 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+The president.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:37,253 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:37,253 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président.
+
+--------------------------------------------------
+2026-04-08 23:49:41,391 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:41,837 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:41,837 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+
+--------------------------------------------------
+2026-04-08 23:49:43,036 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+yes
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:43,545 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:43,546 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+oui
+
+--------------------------------------------------
+2026-04-08 23:49:43,603 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+yester
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:44,019 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+yesterday
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:44,078 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:44,079 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier
+
+--------------------------------------------------
+2026-04-08 23:49:44,268 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:44,477 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:44,478 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier
+
+--------------------------------------------------
+2026-04-08 23:49:44,776 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:44,778 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier.
+
+--------------------------------------------------
+2026-04-08 23:49:45,316 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+
+yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:45,839 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:45,840 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier.
+
+--------------------------------------------------
+2026-04-08 23:49:49,210 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+
+
+yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:49,733 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:49,734 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier.
+
+--------------------------------------------------
+2026-04-08 23:49:56,776 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+
+
+
+yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:57,190 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- If line-breaks appear in the input, keep them in the output.
+- Preserve line breaks in equivalent positions.
+
+[START]
+She arrived
+
+
+
+
+yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:49:57,311 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:57,312 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier.
+
+--------------------------------------------------
+2026-04-08 23:49:57,694 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:49:57,695 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+hier.
+
+--------------------------------------------------
+2026-04-08 23:56:11,176 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- The input may contain the symbol ⏎ which represents a line break. Keep every ⏎ exactly as-is in the output, in the same positions.
+
+[START]
+The president.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:56:14,649 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:56:14,649 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président.
+
+--------------------------------------------------
+2026-04-08 23:56:14,663 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- The input may contain the symbol ⏎ which represents a line break. Keep every ⏎ exactly as-is in the output, in the same positions.
+
+[START]
+She arrived⏎⏎⏎⏎⏎yesterday.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:56:15,271 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:56:15,272 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle est arrivée
+
+
+
+
+hier.
+
+--------------------------------------------------
