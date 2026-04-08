@@ -280,3 +280,53 @@ TRANSLATION
 Elle porte la nouvelle veste.
 
 --------------------------------------------------
+2026-04-08 23:47:43,701 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- Preserve line breaks in equivalent positions.
+- If the literal sequence \n appears in the input, keep it as a line-break marker in the output.
+
+[START]
+The president is here.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:47:44,409 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:47:44,410 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président est ici.
+
+--------------------------------------------------
+2026-04-08 23:47:44,429 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between [START] and [END] into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- Preserve line breaks in equivalent positions.
+- If the literal sequence \n appears in the input, keep it as a line-break marker in the output.
+
+[START]
+She 
+
+carries the new jacket.
+[END]
+
+Output:
+
+==================================================
+2026-04-08 23:47:44,955 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:47:44,956 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle\nporte la nouvelle veste.
+
+--------------------------------------------------
