@@ -86,7 +86,7 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
     tic = time.perf_counter()
     with model_lock:
         model = model_store["model"]
-    logger.info(f"\REQUEST\n{':'*80}\n{request}\n{':'*80}")
+    logger.info(f"\nREQUEST\n{':'*80}\n{request}\n{':'*80}")
 
     sentence_for_prompt = request.sentence.replace("\n", "⏎")
     prompt = build_prompt(LLMTTranslateRequest(
