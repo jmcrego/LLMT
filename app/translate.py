@@ -53,8 +53,12 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
         examples = "\n".join(f"  SRC: {st.source}\n  TGT: {st.target}" for st in request.similar_translations)
         parts.append(f"Similar translations:\n{examples}")
     parts.append(
-         f"Using the available context, translate the following sentence into {request.target_language}. "
-        f"Output only the translation, with no extra text:\nInput:\n{request.sentence}\nOutput:\n"
+        f"Using the available context, translate the following sentence into {request.target_language}.\n"
+        f"Output only the translation, with no extra text:\n"
+        f"If \\n is present in the input, it represents a line break and should be preserved in the output.\n"
+        f"Input:\n"
+        f"{request.sentence}\n"
+        f"Output:\n"
     )
     return "\n\n".join(parts)
 
@@ -64,7 +68,7 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
     with model_lock:
         model = model_store["model"]
     prompt = build_prompt(request)
-    logger.info(f"{'#'*50}\nPROMPT\n{prompt}\n{'#'*50}")
+    logger.info(f"\n{'='*50}\nPROMPT\n{prompt}\n{'='*50}")
     try:
         response = ollama.generate(model=model, prompt=prompt)
         translation = response.get("response") or ""
@@ -72,7 +76,7 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
         logger.error(f"Translation failed: {e}")
         raise HTTPException(status_code=500, detail=f"Translation failed: {e}")
     runtime_s = time.perf_counter() - tic
-    logger.info(f"{'#'*50}\nTRANSLATION\n{translation}\n{'#'*50}")
+    logger.info(f"\n{'-'*50}\nTRANSLATION\n{translation}\n{'-'*50}")
     return LLMTTranslateResponse(
         translation=translation,
         model=model,

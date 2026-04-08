@@ -1,0 +1,160 @@
+2026-04-08 23:26:19,577 [INFO] translate: ##################################################
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+The president is here.
+Output:
+
+##################################################
+2026-04-08 23:26:23,621 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:26:23,623 [INFO] translate: ##################################################
+TRANSLATION
+Le président est là.
+
+##################################################
+2026-04-08 23:26:23,646 [INFO] translate: ##################################################
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+She 
+
+carries the new black jacket.
+Output:
+
+##################################################
+2026-04-08 23:26:24,176 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:26:24,177 [INFO] translate: ##################################################
+TRANSLATION
+Elle porte la nouvelle veste noire.
+
+##################################################
+2026-04-08 23:29:04,832 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+The president is here.
+Output:
+
+==================================================
+2026-04-08 23:29:05,395 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:05,396 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président est ici.
+
+--------------------------------------------------
+2026-04-08 23:29:05,411 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+She 
+
+carries the new black jacket.
+Output:
+
+==================================================
+2026-04-08 23:29:05,925 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:05,926 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle porte la nouvelle veste noire.
+
+--------------------------------------------------
+2026-04-08 23:29:35,914 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+W
+Output:
+
+==================================================
+2026-04-08 23:29:36,329 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:36,330 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+W
+
+--------------------------------------------------
+2026-04-08 23:29:37,504 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+Where are yo
+Output:
+
+==================================================
+2026-04-08 23:29:37,721 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+Where are yo n
+Output:
+
+==================================================
+2026-04-08 23:29:38,065 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:38,065 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Où es-tu ?
+
+--------------------------------------------------
+2026-04-08 23:29:38,361 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:38,361 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Où es-tu ?
+
+--------------------------------------------------
+2026-04-08 23:29:38,369 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+Where are you
+Output:
+
+==================================================
+2026-04-08 23:29:38,840 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:38,840 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Où es-tu ?
+
+--------------------------------------------------
+2026-04-08 23:29:38,932 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+Where are you now
+Output:
+
+==================================================
+2026-04-08 23:29:39,442 [INFO] translate: 
+==================================================
+PROMPT
+Using the available context, translate the following sentence into fr. Output only the translation, with no extra text:
+Input:
+Where are you now?
+Output:
+
+==================================================
+2026-04-08 23:29:39,456 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:39,457 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Où es-tu maintenant ?
+
+--------------------------------------------------
+2026-04-08 23:29:39,944 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:29:39,945 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Où es-tu maintenant ?
+
+--------------------------------------------------
