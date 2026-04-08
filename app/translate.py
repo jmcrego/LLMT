@@ -71,7 +71,7 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
     parts.append(
             f"RULES:\n"
             f"- Output only the translation text, with no prefix, suffix, quotes, or explanations.\n"
-            f"- If the input contain symbols ⏎. the output must also insert them in the same positions.\n"
+            f"- If the input contain symbols ⏎, the output must also insert them in the same positions.\n"
             f"\n"
             f"[START]\n"
             f"{request.sentence}\n"
