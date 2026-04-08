@@ -79,7 +79,7 @@ def build_prompt(request: LLMTTranslateRequest) -> str:
             f"\n"
             f"Output:\n"
     )
-    return "\n".join(parts)
+    return "".join(parts)
 
 
 def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
