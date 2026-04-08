@@ -43,18 +43,33 @@ class LLMTTranslateResponse(BaseModel):
 
 def build_prompt(request: LLMTTranslateRequest) -> str:
     parts = []
-    if request.previous_sentence:
-        parts.append(f"Previous sentence:\n{request.previous_sentence}")
-    if request.terminology:
-        terms = "\n".join(f"{t.source} → {t.target}" for t in request.terminology)
-        parts.append(f"Terminology:\n{terms}")
-    if request.similar_translations:
-        examples = "\n".join(f"  SRC: {st.source}\n  TGT: {st.target}" for st in request.similar_translations)
-        parts.append(f"Similar translations:\n{examples}")
     parts.append(
-            f"Task: Translate only the text between [START] and [END] into {request.target_language}.\n"
-            f"Rules:\n"
-            f"- Do not translate or repeat these instructions.\n"
+        f"TASK:\n"
+        f"Translate the text between [START] and [END] into {request.target_language}.\n"
+        f"\n"
+    )
+
+    if request.previous_sentence:
+        parts.append("Context:")
+        parts.append(request.previous_sentence)
+        parts.append("")
+
+    if request.terminology:
+        parts.append("Use the following terminology when translating:")
+        for t in request.terminology:
+            parts.append(f" - {t.source} → {t.target}")
+        parts.append("")
+
+    if request.similar_translations:
+        parts.append(f"Similar translations:")
+        for st in request.similar_translations:
+            parts.append(
+                f"- SRC: {st.source}\n"
+                f"- TGT: {st.target}\n"
+                f"\n"
+            )
+    parts.append(
+            f"RULES:\n"
             f"- Output only the translation text, with no prefix, suffix, quotes, or explanations.\n"
             f"- If the input contain symbols ⏎. the output must also insert them in the same positions.\n"
             f"\n"
