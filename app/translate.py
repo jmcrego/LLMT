@@ -1,10 +1,19 @@
 import time
 import ollama
+import logging
 
 from fastapi import HTTPException
+from pathlib import Path
 from pydantic import BaseModel
 from typing import List, Optional
 from .shared import model_store, model_lock
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(name)s: %(message)s",
+    handlers=[
+        logging.FileHandler(Path("translate.log") , mode='a', encoding='utf-8'),
+        # logging.StreamHandler()  # and log to console
+    ]
+)
 
 
 class TermPair(BaseModel):
@@ -54,12 +63,15 @@ def translate_endpoint(request: LLMTTranslateRequest) -> LLMTTranslateResponse:
     with model_lock:
         model = model_store["model"]
     prompt = build_prompt(request)
+    logger.info(f"{'#'*50}\nPROMPT\n{prompt}\n{'#'*50}")
     try:
         response = ollama.generate(model=model, prompt=prompt)
         translation = response.get("response") or ""
     except Exception as e:
+        logger.error(f"Translation failed: {e}")
         raise HTTPException(status_code=500, detail=f"Translation failed: {e}")
     runtime_s = time.perf_counter() - tic
+    logger.info(f"{'#'*50}\nTRANSLATION\n{translation}\n{'#'*50}")
     return LLMTTranslateResponse(
         translation=translation,
         model=model,
