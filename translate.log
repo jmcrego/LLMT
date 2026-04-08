@@ -178,3 +178,105 @@ TRANSLATION
 Si \n est présent dans l'entrée, il représente un saut de ligne et doit être conservé dans la sortie.
 
 --------------------------------------------------
+2026-04-08 23:44:55,486 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between INPUT_START and INPUT_END into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- Preserve line breaks in equivalent positions.
+- If the literal sequence \n appears in the input, keep it as a line-break marker in the output.
+
+INPUT_START
+The president is here.
+INPUT_END
+
+Output:
+
+==================================================
+2026-04-08 23:44:59,021 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:44:59,021 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Le président est là.
+
+--------------------------------------------------
+2026-04-08 23:44:59,033 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between INPUT_START and INPUT_END into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- Preserve line breaks in equivalent positions.
+- If the literal sequence \n appears in the input, keep it as a line-break marker in the output.
+
+INPUT_START
+She 
+
+carries the new jacket.
+INPUT_END
+
+Output:
+
+==================================================
+2026-04-08 23:44:59,626 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:44:59,627 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle 
+
+porte la nouvelle veste.
+
+--------------------------------------------------
+2026-04-08 23:45:07,537 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between INPUT_START and INPUT_END into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- Preserve line breaks in equivalent positions.
+- If the literal sequence \n appears in the input, keep it as a line-break marker in the output.
+
+INPUT_START
+She 
+carries the new jacket.
+INPUT_END
+
+Output:
+
+==================================================
+2026-04-08 23:45:08,127 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:45:08,129 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle
+porte la nouvelle veste.
+
+--------------------------------------------------
+2026-04-08 23:45:11,268 [INFO] translate: 
+==================================================
+PROMPT
+Task: Translate only the text between INPUT_START and INPUT_END into fr.
+Rules:
+- Do not translate or repeat these instructions.
+- Output only the translation text, with no prefix, suffix, quotes, or explanations.
+- Preserve line breaks in equivalent positions.
+- If the literal sequence \n appears in the input, keep it as a line-break marker in the output.
+
+INPUT_START
+She carries the new jacket.
+INPUT_END
+
+Output:
+
+==================================================
+2026-04-08 23:45:11,782 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-08 23:45:11,783 [INFO] translate: 
+--------------------------------------------------
+TRANSLATION
+Elle porte la nouvelle veste.
+
+--------------------------------------------------
