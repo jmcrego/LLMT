@@ -66,7 +66,7 @@ def build_prompt(request: LLMTTranslationRequest) -> str:
         parts.append("")
 
     if request.similar_translations:
-        parts.append("Reference translations (use when helpful to keep new translations consistent):")
+        parts.append("Related translations (use when helpful to keep new translations consistent):")
         for st in request.similar_translations:
             parts.append(
                 f"- SRC: {st.source}\n"
