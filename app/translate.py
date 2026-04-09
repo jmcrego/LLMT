@@ -88,7 +88,7 @@ def build_prompt(request: LLMTTranslationRequest) -> str:
             f"- Output ONLY the translation.\n"
         )
     parts.append(
-            f"- Preserve {line_feed} if present in INPUT.\n"
+            f"- Preserve all {line_feed} symbols EXACTLY in the same positions as in INPUT.\n"
     )
     parts.append("\n")
 
@@ -127,11 +127,11 @@ def translate_endpoint(request: LLMTTranslationRequest) -> LLMTTranslateResponse
         terminology=request.terminology,
         similar_translations=request.similar_translations,
     ))
-    logger.info(f"\nPROMPT\n{'='*80}\n{prompt}\n{'='*80}")
     try:
         response = ollama.generate(model=model, prompt=prompt)
         translation = (response.get("response") or "")
-        logger.info(f"\nTRANSLATION\n{'#'*80}\n{translation}\n{'#'*80}")
+        translation = translation.strip()
+        logger.info(f"\n{'#'*80}\n{prompt}{translation}\n{'#'*80}")
         translation = translation.replace("⏎", "\n")
     except Exception as e:
         logger.error(f"Translation failed: {e}")

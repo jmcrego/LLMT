@@ -4859,3 +4859,4187 @@ TRANSLATION
 Je suis une femme. ⏎
 
 ################################################################################
+2026-04-09 10:50:24,014 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I am Angela Merkel.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:50:24,014 [INFO] root: Sentence for prompt: I am Angela Merkel.
+2026-04-09 10:50:24,014 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I am Angela Merkel.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:50:27,515 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:50:27,516 [INFO] translate: 
+TRANSLATION
+################################################################################
+Je suis Angela Merkel. ⏎
+
+################################################################################
+2026-04-09 10:50:27,539 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I am the ancient president.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:50:27,539 [INFO] root: Sentence for prompt: I am the ancient president.
+2026-04-09 10:50:27,539 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I am the ancient president.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:50:28,103 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:50:28,104 [INFO] translate: 
+TRANSLATION
+################################################################################
+Je suis le président ancestral. ⏎
+
+################################################################################
+2026-04-09 10:50:28,125 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I am a woman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:50:28,125 [INFO] root: Sentence for prompt: I am a woman.
+2026-04-09 10:50:28,126 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I am a woman.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:50:28,621 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:50:28,622 [INFO] translate: 
+TRANSLATION
+################################################################################
+Je suis une femme. ⏎
+
+################################################################################
+2026-04-09 10:51:10,247 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I w the ancient president.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:10,247 [INFO] root: Sentence for prompt: I w the ancient president.
+2026-04-09 10:51:10,247 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I w the ancient president.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:10,636 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the ancient president.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:10,636 [INFO] root: Sentence for prompt: I was the ancient president.
+2026-04-09 10:51:10,636 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I was the ancient president.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:10,912 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:10,913 [INFO] translate: 
+TRANSLATION
+################################################################################
+Je suis le président ancien. ⏎
+
+################################################################################
+2026-04-09 10:51:11,316 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:11,317 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'avais été le président ancien. ⏎
+
+################################################################################
+2026-04-09 10:51:13,030 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:13,031 [INFO] root: Sentence for prompt: I was the president.
+2026-04-09 10:51:13,031 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I was the president.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:13,627 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:13,628 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'avais été président. ⏎
+
+################################################################################
+2026-04-09 10:51:27,195 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president of .' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:27,195 [INFO] root: Sentence for prompt: I was the president of .
+2026-04-09 10:51:27,196 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I was the president of .
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:27,790 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:27,790 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'ai été président de. ⏎
+
+################################################################################
+2026-04-09 10:51:28,096 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president of German.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:28,096 [INFO] root: Sentence for prompt: I was the president of German.
+2026-04-09 10:51:28,096 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I was the president of German.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:28,326 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president of Germany.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:28,327 [INFO] root: Sentence for prompt: I was the president of Germany.
+2026-04-09 10:51:28,327 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I was the president of Germany.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:28,737 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:28,738 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'avais été président d'Allemagne. ⏎
+
+################################################################################
+2026-04-09 10:51:29,157 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:29,158 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'ai été président d'Allemagne. ⏎
+
+################################################################################
+2026-04-09 10:51:36,809 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president of Germany.' target_language='fr' context=Context(past=['I am Angela Merkel.'], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:36,809 [INFO] root: Sentence for prompt: I was the president of Germany.
+2026-04-09 10:51:36,809 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+BEFORE CONTEXT:
+I am Angela Merkel.
+
+INPUT:
+I was the president of Germany.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:37,594 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:37,594 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'ai été présidente d'Allemagne. ⏎
+
+################################################################################
+2026-04-09 10:51:37,612 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I am a woman.' target_language='fr' context=Context(past=['I was the president of Germany.'], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:51:37,612 [INFO] root: Sentence for prompt: I am a woman.
+2026-04-09 10:51:37,612 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+BEFORE CONTEXT:
+I was the president of Germany.
+
+INPUT:
+I am a woman.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:51:38,099 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:51:38,100 [INFO] translate: 
+TRANSLATION
+################################################################################
+Je suis une femme. ⏎
+
+################################################################################
+2026-04-09 10:56:02,956 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I am Angela Merkel.' target_language='fr' context=Context(past=[], future=['I was the president of Germany.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:56:02,957 [INFO] root: Sentence for prompt: I am Angela Merkel.
+2026-04-09 10:56:02,957 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I am Angela Merkel.
+
+AFTER CONTEXT:
+I was the president of Germany.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:56:04,974 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:56:04,975 [INFO] translate: 
+TRANSLATION
+################################################################################
+Je suis Angela Merkel. ⏎
+
+################################################################################
+2026-04-09 10:56:04,985 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president of Germany.' target_language='fr' context=Context(past=['I am Angela Merkel.'], future=['I am a woman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:56:04,985 [INFO] root: Sentence for prompt: I was the president of Germany.
+2026-04-09 10:56:04,985 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+BEFORE CONTEXT:
+I am Angela Merkel.
+
+INPUT:
+I was the president of Germany.
+
+AFTER CONTEXT:
+I am a woman.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:56:05,647 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:56:05,648 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'étais présidente d'Allemagne. ⏎
+
+################################################################################
+2026-04-09 10:56:20,709 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I am \n\nAngela Merkel.' target_language='fr' context=Context(past=[], future=['I was the president of Germany.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:56:20,709 [INFO] root: Sentence for prompt: I am ⏎⏎Angela Merkel.
+2026-04-09 10:56:20,709 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I am ⏎⏎Angela Merkel.
+
+AFTER CONTEXT:
+I was the president of Germany.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:56:21,452 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:56:21,453 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'étais l'ancienne chancelière allemande.
+
+################################################################################
+2026-04-09 10:56:21,465 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I was the president of Germany.' target_language='fr' context=Context(past=['I am \n\nAngela Merkel.'], future=['I am a woman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 10:56:21,465 [INFO] root: Sentence for prompt: I was the president of Germany.
+2026-04-09 10:56:21,465 [INFO] translate: 
+PROMPT
+================================================================================
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+BEFORE CONTEXT:
+I am 
+
+Angela Merkel.
+
+INPUT:
+I was the president of Germany.
+
+AFTER CONTEXT:
+I am a woman.
+
+OUTPUT:
+
+================================================================================
+2026-04-09 10:56:22,158 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 10:56:22,158 [INFO] translate: 
+TRANSLATION
+################################################################################
+J'ai été chancelière d'Allemagne. ⏎
+
+################################################################################
+2026-04-09 11:01:14,620 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:01:14,621 [INFO] root: Sentence for prompt: Where are you
+2026-04-09 11:01:15,073 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:01:15,073 [INFO] root: Sentence for prompt: Where are you?
+2026-04-09 11:01:16,568 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:01:16,569 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you
+
+OUTPUT:
+Où es-tu 
+ ?
+
+################################################################################
+2026-04-09 11:01:16,912 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:01:16,913 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you?
+
+OUTPUT:
+Où es-tu ? 
+
+
+################################################################################
+2026-04-09 11:02:43,561 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you in this moment?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:02:43,561 [INFO] root: Sentence for prompt: Where are you in this moment?
+2026-04-09 11:02:44,284 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:02:44,284 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you in this moment?
+
+OUTPUT:
+Où es-tu en ce moment ?
+################################################################################
+2026-04-09 11:03:02,305 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you \n\nin this moment?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:03:02,306 [INFO] root: Sentence for prompt: Where are you ⏎⏎in this moment?
+2026-04-09 11:03:03,024 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:03:03,025 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you ⏎⏎in this moment?
+
+OUTPUT:
+Où es-tu 
+
+ en ce moment ?
+################################################################################
+2026-04-09 11:04:10,037 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you \n\nin this moment?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:04:10,038 [INFO] root: Sentence for prompt: Where are you ⏎⏎in this moment?
+2026-04-09 11:04:10,759 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:04:10,759 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you ⏎⏎in this moment?
+
+OUTPUT:
+Où es-tu ⏎⏎ en ce moment ?
+################################################################################
+2026-04-09 11:04:57,585 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you \nin this moment?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:04:57,585 [INFO] root: Sentence for prompt: Where are you ⏎in this moment?
+2026-04-09 11:04:58,346 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:04:58,347 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you ⏎in this moment?
+
+OUTPUT:
+Où es-tu ⏎en ce moment ?
+################################################################################
+2026-04-09 11:05:02,233 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where are you\nin this moment?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:02,233 [INFO] root: Sentence for prompt: Where are you⏎in this moment?
+2026-04-09 11:05:02,929 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:02,929 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where are you⏎in this moment?
+
+OUTPUT:
+Où es-tu ⏎ en ce moment ?
+################################################################################
+2026-04-09 11:05:49,629 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='W' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:49,629 [INFO] root: Sentence for prompt: W
+2026-04-09 11:05:50,097 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:50,097 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+W
+
+OUTPUT:
+W ⏎
+################################################################################
+2026-04-09 11:05:50,614 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:50,614 [INFO] root: Sentence for prompt: Where is
+2026-04-09 11:05:51,113 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:51,113 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is
+
+OUTPUT:
+Où est ⏎
+################################################################################
+2026-04-09 11:05:51,175 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is the' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:51,175 [INFO] root: Sentence for prompt: Where is the
+2026-04-09 11:05:51,412 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is the n' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:51,412 [INFO] root: Sentence for prompt: Where is the n
+2026-04-09 11:05:51,694 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:51,695 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is the
+
+OUTPUT:
+Où est le ⏎ ?
+################################################################################
+2026-04-09 11:05:51,835 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is the nur' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:51,835 [INFO] root: Sentence for prompt: Where is the nur
+2026-04-09 11:05:52,040 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:52,040 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is the n
+
+OUTPUT:
+Où est le n ⏎ ?
+################################################################################
+2026-04-09 11:05:52,158 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is the nurse' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:52,158 [INFO] root: Sentence for prompt: Where is the nurse
+2026-04-09 11:05:52,383 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:52,384 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is the nur
+
+OUTPUT:
+Où est le nur ⏎ ?
+################################################################################
+2026-04-09 11:05:52,808 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:52,809 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is the nurse
+
+OUTPUT:
+Où est l'infirmière ⏎ ?
+################################################################################
+2026-04-09 11:05:54,354 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is the nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:05:54,354 [INFO] root: Sentence for prompt: Where is the nurse?
+2026-04-09 11:05:55,006 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:05:55,007 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is the nurse?
+
+OUTPUT:
+Où est l'infirmière ? ⏎
+################################################################################
+2026-04-09 11:06:04,088 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:04,088 [INFO] root: Sentence for prompt: I
+2026-04-09 11:06:04,517 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:04,518 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I
+
+OUTPUT:
+Je ⏎
+################################################################################
+2026-04-09 11:06:04,717 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I l' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:04,717 [INFO] root: Sentence for prompt: I l
+2026-04-09 11:06:05,152 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:05,153 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I l
+
+OUTPUT:
+Je l⏎
+################################################################################
+2026-04-09 11:06:05,153 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I love' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:05,153 [INFO] root: Sentence for prompt: I love
+2026-04-09 11:06:05,605 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:05,605 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I love
+
+OUTPUT:
+J'aime ⏎
+################################################################################
+2026-04-09 11:06:05,778 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I loved hi' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:05,779 [INFO] root: Sentence for prompt: I loved hi
+2026-04-09 11:06:06,041 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I loved him' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:06,041 [INFO] root: Sentence for prompt: I loved him
+2026-04-09 11:06:06,345 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:06,346 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I loved hi
+
+OUTPUT:
+J'ai adoré lui ⏎
+################################################################################
+2026-04-09 11:06:06,717 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:06,717 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I loved him
+
+OUTPUT:
+J'ai été amoureux de lui ⏎
+################################################################################
+2026-04-09 11:06:06,910 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I loved him a' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:06,910 [INFO] root: Sentence for prompt: I loved him a
+2026-04-09 11:06:07,504 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:07,505 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I loved him a
+
+OUTPUT:
+J'ai adoré cet homme ⏎
+################################################################################
+2026-04-09 11:06:08,353 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I loved him.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:08,353 [INFO] root: Sentence for prompt: I loved him.
+2026-04-09 11:06:08,979 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:08,980 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I loved him.
+
+OUTPUT:
+J'ai été amoureux de lui. ⏎
+################################################################################
+2026-04-09 11:06:12,645 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I loved' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:12,646 [INFO] root: Sentence for prompt: I loved
+2026-04-09 11:06:13,182 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:13,182 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I loved
+
+OUTPUT:
+J'ai adoré ⏎
+################################################################################
+2026-04-09 11:06:27,722 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:27,722 [INFO] root: Sentence for prompt: Where is that nurse?
+2026-04-09 11:06:28,341 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:28,341 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ? ⏎
+################################################################################
+2026-04-09 11:06:31,425 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:31,426 [INFO] root: Sentence for prompt: I⏎Where is that nurse?
+2026-04-09 11:06:32,080 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:32,081 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I⏎Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ? ⏎
+################################################################################
+2026-04-09 11:06:32,359 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:32,359 [INFO] root: Sentence for prompt: I have ⏎Where is that nurse?
+2026-04-09 11:06:33,028 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:33,029 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have ⏎Where is that nurse?
+
+OUTPUT:
+J'ai ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:33,571 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been to\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:33,571 [INFO] root: Sentence for prompt: I have been to⏎Where is that nurse?
+2026-04-09 11:06:34,065 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been ta\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:34,065 [INFO] root: Sentence for prompt: I have been ta⏎Where is that nurse?
+2026-04-09 11:06:34,311 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been tak\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:34,311 [INFO] root: Sentence for prompt: I have been tak⏎Where is that nurse?
+2026-04-09 11:06:34,325 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:34,325 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been to⏎Where is that nurse?
+
+OUTPUT:
+Je suis allé(e) à... Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:34,888 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:34,889 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been ta⏎Where is that nurse?
+
+OUTPUT:
+J'ai été attaqué. ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:35,075 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been talk\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:35,075 [INFO] root: Sentence for prompt: I have been talk⏎Where is that nurse?
+2026-04-09 11:06:35,401 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been talki\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:35,401 [INFO] root: Sentence for prompt: I have been talki⏎Where is that nurse?
+2026-04-09 11:06:35,473 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:35,473 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been tak⏎Where is that nurse?
+
+OUTPUT:
+J'ai été en train de... ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:35,636 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been talkin\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:35,637 [INFO] root: Sentence for prompt: I have been talkin⏎Where is that nurse?
+2026-04-09 11:06:35,987 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been talkin \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:35,987 [INFO] root: Sentence for prompt: I have been talkin ⏎Where is that nurse?
+2026-04-09 11:06:36,032 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:36,032 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been talk⏎Where is that nurse?
+
+OUTPUT:
+J'ai été parler ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:36,537 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:36,538 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been talki⏎Where is that nurse?
+
+OUTPUT:
+J'ai été parler ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:36,691 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been talking \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:36,691 [INFO] root: Sentence for prompt: I have been talking ⏎Where is that nurse?
+2026-04-09 11:06:37,121 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:37,122 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been talkin⏎Where is that nurse?
+
+OUTPUT:
+J'ai été en train de parler ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:37,679 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been talking\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:37,679 [INFO] root: Sentence for prompt: I have been talking⏎Where is that nurse?
+2026-04-09 11:06:37,702 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:37,703 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been talkin ⏎Where is that nurse?
+
+OUTPUT:
+J'ai été en train de parler ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:38,291 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:38,291 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been talking ⏎Where is that nurse?
+
+OUTPUT:
+J'ai été en train de parler ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:38,410 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I have been tal\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:38,411 [INFO] root: Sentence for prompt: I have been tal⏎Where is that nurse?
+2026-04-09 11:06:38,923 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:38,923 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been talking⏎Where is that nurse?
+
+OUTPUT:
+J'ai été en train de parler ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:39,507 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:39,507 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I have been tal⏎Where is that nurse?
+
+OUTPUT:
+J'ai été en train de parler. ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:39,825 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I h\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:39,825 [INFO] root: Sentence for prompt: I h⏎Where is that nurse?
+2026-04-09 11:06:40,093 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:40,093 [INFO] root: Sentence for prompt: I ⏎Where is that nurse?
+2026-04-09 11:06:40,443 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:40,443 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I h⏎Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ? ⏎
+################################################################################
+2026-04-09 11:06:40,841 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:40,842 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I ⏎Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ? ⏎
+################################################################################
+2026-04-09 11:06:41,342 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='A\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:41,343 [INFO] root: Sentence for prompt: A⏎Where is that nurse?
+2026-04-09 11:06:41,961 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:41,962 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+A⏎Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ? ⏎
+################################################################################
+2026-04-09 11:06:42,034 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:42,034 [INFO] root: Sentence for prompt: At the ⏎Where is that nurse?
+2026-04-09 11:06:42,375 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hos\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:42,375 [INFO] root: Sentence for prompt: At the hos⏎Where is that nurse?
+2026-04-09 11:06:42,637 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:42,638 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the ⏎Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ⏎?
+################################################################################
+2026-04-09 11:06:42,684 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hosp\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:42,684 [INFO] root: Sentence for prompt: At the hosp⏎Where is that nurse?
+2026-04-09 11:06:42,981 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospt\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:42,981 [INFO] root: Sentence for prompt: At the hospt⏎Where is that nurse?
+2026-04-09 11:06:43,034 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:43,034 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hos⏎Where is that nurse?
+
+OUTPUT:
+Où est cette infirmière ⏎ ?
+################################################################################
+2026-04-09 11:06:43,517 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:43,518 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hosp⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:43,734 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospita\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:43,734 [INFO] root: Sentence for prompt: At the hospita⏎Where is that nurse?
+2026-04-09 11:06:43,995 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:43,996 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospt⏎Where is that nurse?
+
+OUTPUT:
+Chez l'hôpital ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:44,051 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:44,051 [INFO] root: Sentence for prompt: At the hospital ⏎Where is that nurse?
+2026-04-09 11:06:44,479 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:44,486 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospita⏎Where is that nurse?
+
+OUTPUT:
+Dans l'hôpital ⏎ où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:44,489 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital i\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:44,489 [INFO] root: Sentence for prompt: At the hospital i⏎Where is that nurse?
+2026-04-09 11:06:44,960 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:44,960 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital ⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:45,466 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:45,467 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital i⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, ⏎ où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:45,469 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I w\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:45,469 [INFO] root: Sentence for prompt: At the hospital I w⏎Where is that nurse?
+2026-04-09 11:06:45,784 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:45,785 [INFO] root: Sentence for prompt: At the hospital I was⏎Where is that nurse?
+2026-04-09 11:06:46,027 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:46,027 [INFO] root: Sentence for prompt: At the hospital I was ⏎Where is that nurse?
+2026-04-09 11:06:46,181 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:46,181 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I w⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, je w⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:46,766 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:46,766 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, j'étais ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:46,890 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:46,890 [INFO] root: Sentence for prompt: At the hospital I was with ⏎Where is that nurse?
+2026-04-09 11:06:47,352 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:47,352 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was ⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, j'étais ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:47,540 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with hi\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:47,541 [INFO] root: Sentence for prompt: At the hospital I was with hi⏎Where is that nurse?
+2026-04-09 11:06:47,816 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:47,817 [INFO] root: Sentence for prompt: At the hospital I was with him⏎Where is that nurse?
+2026-04-09 11:06:47,989 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:47,990 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with ⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, j'étais avec ⏎Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:48,135 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:48,135 [INFO] root: Sentence for prompt: At the hospital I was with him ⏎Where is that nurse?
+2026-04-09 11:06:48,626 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:48,626 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with hi⏎Where is that nurse?
+
+OUTPUT:
+Chez l'hôpital, j'étais avec lui ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:49,215 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him dur\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:49,215 [INFO] root: Sentence for prompt: At the hospital I was with him dur⏎Where is that nurse?
+2026-04-09 11:06:49,235 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:49,235 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him⏎Where is that nurse?
+
+OUTPUT:
+Au hôpital, j'étais avec lui ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:49,871 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:49,872 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him ⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, j'étais avec lui ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:50,009 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him during m\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:50,009 [INFO] root: Sentence for prompt: At the hospital I was with him during m⏎Where is that nurse?
+2026-04-09 11:06:50,403 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him during my\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:50,404 [INFO] root: Sentence for prompt: At the hospital I was with him during my⏎Where is that nurse?
+2026-04-09 11:06:50,485 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:50,485 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him dur⏎Where is that nurse?
+
+OUTPUT:
+Au hôpital, j'étais avec lui ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:50,619 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him during my \nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:50,622 [INFO] root: Sentence for prompt: At the hospital I was with him during my ⏎Where is that nurse?
+2026-04-09 11:06:51,108 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him during my sta\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:51,108 [INFO] root: Sentence for prompt: At the hospital I was with him during my sta⏎Where is that nurse?
+2026-04-09 11:06:51,153 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:51,153 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him during m⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, j'étais avec lui pendant ⏎Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:51,637 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him during my stay\nWhere is that nurse?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:51,637 [INFO] root: Sentence for prompt: At the hospital I was with him during my stay⏎Where is that nurse?
+2026-04-09 11:06:51,819 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:51,819 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him during my⏎Where is that nurse?
+
+OUTPUT:
+Dans l'hôpital, j'étais avec lui pendant mon⏎Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:52,475 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:52,475 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him during my ⏎Where is that nurse?
+
+OUTPUT:
+Au hôpital, j'étais avec lui pendant mon ⏎Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:53,214 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:53,214 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him during my sta⏎Where is that nurse?
+
+OUTPUT:
+Dans l'hôpital, j'étais avec lui pendant ma période ⏎Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:53,318 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='At the hospital I was with him during my stay.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:06:53,318 [INFO] root: Sentence for prompt: At the hospital I was with him during my stay.
+2026-04-09 11:06:53,924 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:53,924 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him during my stay⏎Where is that nurse?
+
+OUTPUT:
+À l'hôpital, j'étais avec lui pendant mon séjour ⏎ Où est cette infirmière ?
+################################################################################
+2026-04-09 11:06:54,479 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:06:54,481 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+At the hospital I was with him during my stay.
+
+OUTPUT:
+À l'hôpital, j'étais avec lui pendant mon séjour. ⏎
+################################################################################
+2026-04-09 11:07:00,751 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='Where is the nurse ?' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:00,751 [INFO] root: Sentence for prompt: Where is the nurse ?
+2026-04-09 11:07:01,392 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:01,393 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+Where is the nurse ?
+
+OUTPUT:
+Où est l'infirmière ? ⏎
+################################################################################
+2026-04-09 11:07:27,790 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I llo' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:27,790 [INFO] root: Sentence for prompt: I llo
+2026-04-09 11:07:28,017 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I llok' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:28,018 [INFO] root: Sentence for prompt: I llok
+2026-04-09 11:07:28,304 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:28,305 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I llo
+
+OUTPUT:
+Je llo ⏎
+################################################################################
+2026-04-09 11:07:28,676 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:28,677 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I llok
+
+OUTPUT:
+Je l'ai regardé. ⏎
+################################################################################
+2026-04-09 11:07:29,526 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I loo' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:29,526 [INFO] root: Sentence for prompt: I loo
+2026-04-09 11:07:29,913 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:29,914 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I loo
+
+OUTPUT:
+Je lou
+################################################################################
+2026-04-09 11:07:30,191 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:30,191 [INFO] root: Sentence for prompt: I look at
+2026-04-09 11:07:30,643 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:30,644 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at
+
+OUTPUT:
+Je regarde ⏎
+################################################################################
+2026-04-09 11:07:30,791 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:30,791 [INFO] root: Sentence for prompt: I look at the
+2026-04-09 11:07:31,281 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:31,282 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the
+
+OUTPUT:
+Je regarde ⏎ le
+################################################################################
+2026-04-09 11:07:32,141 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the wo' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:32,141 [INFO] root: Sentence for prompt: I look at the wo
+2026-04-09 11:07:32,670 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:32,671 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the wo
+
+OUTPUT:
+Je regarde le wo ⏎
+################################################################################
+2026-04-09 11:07:32,737 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:32,738 [INFO] root: Sentence for prompt: I look at the woman
+2026-04-09 11:07:33,243 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:33,244 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman
+
+OUTPUT:
+Je regarde la femme ⏎
+################################################################################
+2026-04-09 11:07:33,609 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:33,610 [INFO] root: Sentence for prompt: I look at the woman with
+2026-04-09 11:07:33,952 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with th' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:33,952 [INFO] root: Sentence for prompt: I look at the woman with th
+2026-04-09 11:07:34,120 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:34,121 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with
+
+OUTPUT:
+Je regarde la femme avec ⏎
+################################################################################
+2026-04-09 11:07:34,481 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:34,482 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with th
+
+OUTPUT:
+Je regarde la femme avec... ⏎
+################################################################################
+2026-04-09 11:07:34,482 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:34,482 [INFO] root: Sentence for prompt: I look at the woman with the
+2026-04-09 11:07:35,002 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:35,002 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the
+
+OUTPUT:
+Je regarde la femme avec la ⏎
+################################################################################
+2026-04-09 11:07:40,435 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the l' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:40,435 [INFO] root: Sentence for prompt: I look at the woman with the l
+2026-04-09 11:07:41,004 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:41,005 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the l
+
+OUTPUT:
+Je regarde la femme avec le ⏎
+################################################################################
+2026-04-09 11:07:41,020 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the long' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:41,021 [INFO] root: Sentence for prompt: I look at the woman with the long
+2026-04-09 11:07:41,532 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:41,533 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the long
+
+OUTPUT:
+Je regarde la femme au long ⏎
+################################################################################
+2026-04-09 11:07:41,695 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the longvie' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:41,695 [INFO] root: Sentence for prompt: I look at the woman with the longvie
+2026-04-09 11:07:42,186 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the longview' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:42,186 [INFO] root: Sentence for prompt: I look at the woman with the longview
+2026-04-09 11:07:42,306 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:42,307 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the longvie
+
+OUTPUT:
+Je regarde la femme avec la longue vie ⏎
+################################################################################
+2026-04-09 11:07:42,810 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:42,810 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the longview
+
+OUTPUT:
+Je regarde la femme au regard lointain. ⏎
+################################################################################
+2026-04-09 11:07:43,404 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the longviews' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:07:43,404 [INFO] root: Sentence for prompt: I look at the woman with the longviews
+2026-04-09 11:07:44,013 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:07:44,014 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the longviews
+
+OUTPUT:
+Je regarde la femme aux longs yeux. ⏎
+################################################################################
+2026-04-09 11:08:43,399 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I look at the woman with the telescope.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:08:43,400 [INFO] root: Sentence for prompt: I look at the woman with the telescope.
+2026-04-09 11:08:44,152 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:08:44,153 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I look at the woman with the telescope.
+
+OUTPUT:
+Je regarde la femme avec un télescope. ⏎
+################################################################################
+2026-04-09 11:09:15,396 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will m' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:15,398 [INFO] root: Sentence for prompt: I will m
+2026-04-09 11:09:15,683 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will me' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:15,683 [INFO] root: Sentence for prompt: I will me
+2026-04-09 11:09:15,840 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:15,840 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will m
+
+OUTPUT:
+Je vais m
+################################################################################
+2026-04-09 11:09:16,032 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will mee' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:16,032 [INFO] root: Sentence for prompt: I will mee
+2026-04-09 11:09:16,156 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:16,156 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will me
+
+OUTPUT:
+Je vais me. ⏎
+################################################################################
+2026-04-09 11:09:16,400 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will meet' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:16,400 [INFO] root: Sentence for prompt: I will meet
+2026-04-09 11:09:16,510 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:16,510 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will mee
+
+OUTPUT:
+Je me réunirai ⏎
+################################################################################
+2026-04-09 11:09:16,766 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will meet he' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:16,766 [INFO] root: Sentence for prompt: I will meet he
+2026-04-09 11:09:16,867 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:16,868 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will meet
+
+OUTPUT:
+Je me rencontrerai ⏎
+################################################################################
+2026-04-09 11:09:17,108 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will meet her' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:17,108 [INFO] root: Sentence for prompt: I will meet her
+2026-04-09 11:09:17,238 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:17,239 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will meet he
+
+OUTPUT:
+Je rencontrerai lui ⏎
+################################################################################
+2026-04-09 11:09:17,579 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:17,582 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will meet her
+
+OUTPUT:
+Je la rencontrerai ⏎
+################################################################################
+2026-04-09 11:09:18,433 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will meet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:18,433 [INFO] root: Sentence for prompt: I will meet her tomorrow
+2026-04-09 11:09:18,963 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:18,964 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will meet her tomorrow
+
+OUTPUT:
+Je la rencontrerai demain ⏎
+################################################################################
+2026-04-09 11:09:19,378 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will meet her tomorrow.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:19,378 [INFO] root: Sentence for prompt: I will meet her tomorrow.
+2026-04-09 11:09:19,939 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:19,940 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will meet her tomorrow.
+
+OUTPUT:
+Je la retrouverai demain. ⏎
+################################################################################
+2026-04-09 11:09:28,118 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:28,118 [INFO] root: Sentence for prompt: I'
+2026-04-09 11:09:28,565 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:28,566 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'
+
+OUTPUT:
+Je ⏎
+################################################################################
+2026-04-09 11:09:29,074 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:29,074 [INFO] root: Sentence for prompt: I'll be
+2026-04-09 11:09:29,518 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:29,518 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be
+
+OUTPUT:
+Je serai
+################################################################################
+2026-04-09 11:09:29,622 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be w" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:29,622 [INFO] root: Sentence for prompt: I'll be w
+2026-04-09 11:09:30,117 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:30,118 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be w
+
+OUTPUT:
+Je serai w ⏎
+################################################################################
+2026-04-09 11:09:30,125 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be wit" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:30,125 [INFO] root: Sentence for prompt: I'll be wit
+2026-04-09 11:09:30,599 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:30,600 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be wit
+
+OUTPUT:
+Je serai avec ⏎
+################################################################################
+2026-04-09 11:09:31,009 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with the" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:31,009 [INFO] root: Sentence for prompt: I'll be with the
+2026-04-09 11:09:31,553 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:31,554 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with the
+
+OUTPUT:
+Je serai avec le ⏎
+################################################################################
+2026-04-09 11:09:31,599 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with the Ge" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:31,599 [INFO] root: Sentence for prompt: I'll be with the Ge
+2026-04-09 11:09:32,128 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:32,128 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with the Ge
+
+OUTPUT:
+Je serai avec les Ge⏎.
+################################################################################
+2026-04-09 11:09:32,347 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with the German" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:32,348 [INFO] root: Sentence for prompt: I'll be with the German
+2026-04-09 11:09:32,979 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:32,980 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with the German
+
+OUTPUT:
+Je serai avec le/la German. ⏎
+################################################################################
+2026-04-09 11:09:36,761 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:36,763 [INFO] root: Sentence for prompt: I'll be with
+2026-04-09 11:09:37,277 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:37,277 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with
+
+OUTPUT:
+Je serai avec ⏎
+################################################################################
+2026-04-09 11:09:37,456 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with A" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:37,456 [INFO] root: Sentence for prompt: I'll be with A
+2026-04-09 11:09:37,995 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:37,995 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with A
+
+OUTPUT:
+Je serai avec A ⏎
+################################################################################
+2026-04-09 11:09:38,678 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angela" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:38,678 [INFO] root: Sentence for prompt: I'll be with Angela
+2026-04-09 11:09:38,977 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angela M" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:38,978 [INFO] root: Sentence for prompt: I'll be with Angela M
+2026-04-09 11:09:39,218 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:39,218 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angela
+
+OUTPUT:
+Je serai avec Angela ⏎
+################################################################################
+2026-04-09 11:09:39,465 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angela Mer" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:39,465 [INFO] root: Sentence for prompt: I'll be with Angela Mer
+2026-04-09 11:09:39,564 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:39,565 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angela M
+
+OUTPUT:
+Je serai avec Angela M ⏎
+################################################################################
+2026-04-09 11:09:39,985 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angela Merkel" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:39,985 [INFO] root: Sentence for prompt: I'll be with Angela Merkel
+2026-04-09 11:09:39,994 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:39,995 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angela Mer
+
+OUTPUT:
+Je serai avec Angela Merkel ⏎
+################################################################################
+2026-04-09 11:09:40,467 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:09:40,467 [INFO] root: Sentence for prompt: I'll be with Angela Merkel.
+2026-04-09 11:09:40,520 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:40,520 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angela Merkel
+
+OUTPUT:
+Je serai avec Angela Merkel ⏎
+################################################################################
+2026-04-09 11:09:41,020 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:09:41,020 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angela Merkel.
+
+OUTPUT:
+Je serai avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:04,554 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be meet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:04,554 [INFO] root: Sentence for prompt: I will be meet her tomorrow
+2026-04-09 11:10:05,102 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:05,103 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be meet her tomorrow
+
+OUTPUT:
+Je la rencontrerai demain ⏎
+################################################################################
+2026-04-09 11:10:05,355 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with tmeet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:05,355 [INFO] root: Sentence for prompt: I will be with tmeet her tomorrow
+2026-04-09 11:10:05,921 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:05,922 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with tmeet her tomorrow
+
+OUTPUT:
+Je serai avec elle demain ⏎
+################################################################################
+2026-04-09 11:10:05,987 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the premeet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:05,987 [INFO] root: Sentence for prompt: I will be with the premeet her tomorrow
+2026-04-09 11:10:06,176 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the presmeet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:06,176 [INFO] root: Sentence for prompt: I will be with the presmeet her tomorrow
+2026-04-09 11:10:06,408 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the presimeet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:06,408 [INFO] root: Sentence for prompt: I will be with the presimeet her tomorrow
+2026-04-09 11:10:06,597 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:06,597 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the premeet her tomorrow
+
+OUTPUT:
+Je serai avec elle demain matin. ⏎
+################################################################################
+2026-04-09 11:10:07,151 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:07,151 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the presmeet her tomorrow
+
+OUTPUT:
+Je serai avec le président demain pour qu'elle le rencontre. ⏎
+################################################################################
+2026-04-09 11:10:07,277 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president meet her tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:07,277 [INFO] root: Sentence for prompt: I will be with the president meet her tomorrow
+2026-04-09 11:10:07,633 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:07,634 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the presimeet her tomorrow
+
+OUTPUT:
+Je serai avec le présumé pour la rencontrer demain ⏎
+################################################################################
+2026-04-09 11:10:08,086 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:08,086 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president meet her tomorrow
+
+OUTPUT:
+Je serai avec le président pour la rencontrer demain ⏎
+################################################################################
+2026-04-09 11:10:09,014 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:09,014 [INFO] root: Sentence for prompt: I will be with the president tomorrow
+2026-04-09 11:10:09,601 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:09,602 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow
+
+OUTPUT:
+Je serai avec le président demain ⏎
+################################################################################
+2026-04-09 11:10:10,978 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:10,978 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:10:11,601 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:11,601 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:10:20,375 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angl" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:20,376 [INFO] root: Sentence for prompt: I'll be with Angl
+2026-04-09 11:10:20,991 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:20,992 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angl
+
+OUTPUT:
+Je serai avec Angl ⏎
+################################################################################
+2026-04-09 11:10:30,089 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll be with Angela Merke" target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:30,089 [INFO] root: Sentence for prompt: I'll be with Angela Merke
+2026-04-09 11:10:30,644 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:30,645 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll be with Angela Merke
+
+OUTPUT:
+Je serai avec Angela Merkel ⏎
+################################################################################
+2026-04-09 11:10:38,885 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'mll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:38,885 [INFO] root: Sentence for prompt: I'mll be with Angela Merkel.
+2026-04-09 11:10:39,097 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm ll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:39,097 [INFO] root: Sentence for prompt: I'm ll be with Angela Merkel.
+2026-04-09 11:10:39,547 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:39,548 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'mll be with Angela Merkel.
+
+OUTPUT:
+Je serai avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:39,625 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm all be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:39,625 [INFO] root: Sentence for prompt: I'm all be with Angela Merkel.
+2026-04-09 11:10:39,921 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:39,922 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm ll be with Angela Merkel.
+
+OUTPUT:
+Je serai avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:40,375 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:40,375 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm all be with Angela Merkel.
+
+OUTPUT:
+Je serai tout à fait avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:43,172 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrill be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:43,173 [INFO] root: Sentence for prompt: I'm thrill be with Angela Merkel.
+2026-04-09 11:10:43,456 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:43,456 [INFO] root: Sentence for prompt: I'm thrilll be with Angela Merkel.
+2026-04-09 11:10:43,988 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilill be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:43,988 [INFO] root: Sentence for prompt: I'm thrilill be with Angela Merkel.
+2026-04-09 11:10:44,038 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:44,039 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrill be with Angela Merkel.
+
+OUTPUT:
+Je suis ravi(e) d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:44,516 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:44,516 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilll be with Angela Merkel.
+
+OUTPUT:
+Je serai ravi d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:45,053 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:45,054 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilill be with Angela Merkel.
+
+OUTPUT:
+Je suis ravi(e) d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:45,416 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrillingll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:45,417 [INFO] root: Sentence for prompt: I'm thrillingll be with Angela Merkel.
+2026-04-09 11:10:45,667 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilling ll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:45,667 [INFO] root: Sentence for prompt: I'm thrilling ll be with Angela Merkel.
+2026-04-09 11:10:46,113 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:46,114 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrillingll be with Angela Merkel.
+
+OUTPUT:
+Je serai ravi d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:46,132 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilling to ll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:46,132 [INFO] root: Sentence for prompt: I'm thrilling to ll be with Angela Merkel.
+2026-04-09 11:10:46,401 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilling to bll be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:46,401 [INFO] root: Sentence for prompt: I'm thrilling to bll be with Angela Merkel.
+2026-04-09 11:10:46,594 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:46,595 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilling ll be with Angela Merkel.
+
+OUTPUT:
+Je serai ravi d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:47,126 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:47,127 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilling to ll be with Angela Merkel.
+
+OUTPUT:
+Je suis ravi(e) d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:47,268 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilling to bbe with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:47,268 [INFO] root: Sentence for prompt: I'm thrilling to bbe with Angela Merkel.
+2026-04-09 11:10:47,463 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilling to be with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:10:47,464 [INFO] root: Sentence for prompt: I'm thrilling to be with Angela Merkel.
+2026-04-09 11:10:47,658 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:47,659 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilling to bll be with Angela Merkel.
+
+OUTPUT:
+Je suis ravi(e) d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:48,111 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:48,112 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilling to bbe with Angela Merkel.
+
+OUTPUT:
+Je suis ravi d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:10:48,564 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:10:48,565 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilling to be with Angela Merkel.
+
+OUTPUT:
+Je suis ravi d'être avec Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:11:01,954 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["I'm thrilling to be with Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:01,956 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:11:02,697 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:02,698 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+I'm thrilling to be with Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:11:12,319 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["I'm thrilling to meet with Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:12,319 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:11:12,943 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:12,943 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+I'm thrilling to meet with Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:11:12,951 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'm thrilling to meet with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:12,952 [INFO] root: Sentence for prompt: I'm thrilling to meet with Angela Merkel.
+2026-04-09 11:11:13,521 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:13,522 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'm thrilling to meet with Angela Merkel.
+
+OUTPUT:
+Je suis ravi de rencontrer Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:11:27,334 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["I'll meet with Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:27,334 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:11:28,068 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:28,069 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+I'll meet with Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:11:28,078 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll meet with Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:28,078 [INFO] root: Sentence for prompt: I'll meet with Angela Merkel.
+2026-04-09 11:11:28,745 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:28,746 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll meet with Angela Merkel.
+
+OUTPUT:
+Je me встречу с Ангелой Меркель. ⏎
+################################################################################
+2026-04-09 11:11:32,885 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["I'll meet Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:32,886 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:11:33,623 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:33,624 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+I'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:11:33,632 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I'll meet Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:33,632 [INFO] root: Sentence for prompt: I'll meet Angela Merkel.
+2026-04-09 11:11:34,143 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:34,144 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I'll meet Angela Merkel.
+
+OUTPUT:
+Je vais rencontrer Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:11:43,235 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I will be with the president tomorrow\nI'll meet Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:43,235 [INFO] root: Sentence for prompt: I will be with the president tomorrow⏎I'll meet Angela Merkel.
+2026-04-09 11:11:43,517 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I will be with the president tomorrow,\nI'll meet Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:43,517 [INFO] root: Sentence for prompt: I will be with the president tomorrow,⏎I'll meet Angela Merkel.
+2026-04-09 11:11:43,972 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:43,972 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow⏎I'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain ⏎ je rencontrerai Angela Merkel.
+################################################################################
+2026-04-09 11:11:44,515 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:44,516 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow,⏎I'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain, ⏎je rencontrerai Angela Merkel.
+################################################################################
+2026-04-09 11:11:47,692 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I will be with the president tomorrow,I'll meet Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:47,693 [INFO] root: Sentence for prompt: I will be with the president tomorrow,I'll meet Angela Merkel.
+2026-04-09 11:11:48,002 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I will be with the president tomorrow, I'll meet Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:11:48,003 [INFO] root: Sentence for prompt: I will be with the president tomorrow, I'll meet Angela Merkel.
+2026-04-09 11:11:48,486 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:48,486 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow,I'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain, et je rencontrerai Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:11:49,057 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:11:49,057 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow, I'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain, et je rencontrerai Angela Merkel. ⏎
+################################################################################
+2026-04-09 11:12:07,373 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I will be with the president tomorrowI'll meet Angela Merkel." target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:07,375 [INFO] root: Sentence for prompt: I will be with the president tomorrowI'll meet Angela Merkel.
+2026-04-09 11:12:08,112 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:08,113 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrowI'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain ⏎ Je rencontrerai Angela Merkel.
+################################################################################
+2026-04-09 11:12:11,047 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["TI'll meet Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:11,047 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:12:11,697 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["The I'll meet Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:11,697 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:12:11,777 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:11,778 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+TI'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:12:12,289 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:12,290 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The I'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:12:14,317 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["The president is a womanI'll meet Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:14,318 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:12:14,709 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=["The president is a woman'll meet Angela Merkel."]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:14,710 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:12:14,958 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:14,959 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The president is a womanI'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:12:15,378 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:15,379 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The president is a woman'll meet Angela Merkel.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:12:17,002 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=['The president is a womanl.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:17,002 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:12:17,197 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=['The president is a woman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:17,198 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:12:17,645 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:17,645 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The president is a womanl.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:12:18,067 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:18,067 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The president is a woman.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:12:18,301 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president is a woman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:18,301 [INFO] root: Sentence for prompt: The president is a woman.
+2026-04-09 11:12:18,854 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:18,854 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+The president is a woman.
+
+OUTPUT:
+Le président est une femme. ⏎
+################################################################################
+2026-04-09 11:12:30,501 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence="I will be with the president ''tomorrow." target_language='fr' context=Context(past=[], future=['The president is a woman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:30,502 [INFO] root: Sentence for prompt: I will be with the president ''tomorrow.
+2026-04-09 11:12:31,257 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:31,258 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president ''tomorrow.
+
+AFTER CONTEXT:
+The president is a woman.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:12:32,053 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president \n\ntomorrow.' target_language='fr' context=Context(past=[], future=['The president is a woman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:32,053 [INFO] root: Sentence for prompt: I will be with the president ⏎⏎tomorrow.
+2026-04-09 11:12:32,726 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:32,726 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president ⏎⏎tomorrow.
+
+AFTER CONTEXT:
+The president is a woman.
+
+OUTPUT:
+Je serai avec la présidente ⏎⏎ demain.
+################################################################################
+2026-04-09 11:12:38,510 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president \n\ntomorrow.' target_language='fr' context=Context(past=[], future=['The president is a \n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:38,510 [INFO] root: Sentence for prompt: I will be with the president ⏎⏎tomorrow.
+2026-04-09 11:12:39,263 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:39,263 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president ⏎⏎tomorrow.
+
+AFTER CONTEXT:
+The president is a 
+
+woman.
+
+OUTPUT:
+Je serai avec la présidente ⏎⏎ demain.
+################################################################################
+2026-04-09 11:12:39,366 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president is a \n\nwoman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:12:39,367 [INFO] root: Sentence for prompt: The president is a ⏎⏎woman.
+2026-04-09 11:12:39,966 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:12:39,967 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+The president is a ⏎⏎woman.
+
+OUTPUT:
+Le président est une ⏎⏎femme.
+################################################################################
+2026-04-09 11:13:06,567 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president \n\ntomorrow.' target_language='fr' context=Context(past=[], future=['She is a \n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:13:06,569 [INFO] root: Sentence for prompt: I will be with the president ⏎⏎tomorrow.
+2026-04-09 11:13:07,392 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:13:07,393 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+I will be with the president ⏎⏎tomorrow.
+
+AFTER CONTEXT:
+She is a 
+
+woman.
+
+OUTPUT:
+Je serai avec le président ⏎ demain.
+################################################################################
+2026-04-09 11:13:07,404 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='She is a \n\nwoman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:13:07,405 [INFO] root: Sentence for prompt: She is a ⏎⏎woman.
+2026-04-09 11:13:07,946 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:13:07,947 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve ⏎ if present in INPUT.
+
+INPUT:
+She is a ⏎⏎woman.
+
+OUTPUT:
+C'est une femme. ⏎⏎
+################################################################################
+2026-04-09 11:19:32,718 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president \n\ntomorrow.' target_language='fr' context=Context(past=[], future=['She is a \n\n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:19:32,718 [INFO] root: Sentence for prompt: I will be with the president ⏎⏎tomorrow.
+2026-04-09 11:19:36,574 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:19:36,574 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president ⏎⏎tomorrow.
+
+AFTER CONTEXT:
+She is a 
+
+
+woman.
+
+OUTPUT:
+Je serai avec le président ⏎⏎ demain.
+################################################################################
+2026-04-09 11:19:36,592 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='She is a \n\n\nwoman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:19:36,592 [INFO] root: Sentence for prompt: She is a ⏎⏎⏎woman.
+2026-04-09 11:19:37,300 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:19:37,302 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+She is a ⏎⏎⏎woman.
+
+OUTPUT:
+Elle est une ⏎⏎⏎femme.
+################################################################################
+2026-04-09 11:20:57,577 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president \ntomorrow.' target_language='fr' context=Context(past=[], future=['She is a \n\n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:20:57,578 [INFO] root: Sentence for prompt: I will be with the president ⏎tomorrow.
+2026-04-09 11:20:57,781 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=['She is a \n\n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:20:57,781 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:20:58,462 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:20:58,464 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president ⏎tomorrow.
+
+AFTER CONTEXT:
+She is a 
+
+
+woman.
+
+OUTPUT:
+Je serai avec le président ⏎demain.
+################################################################################
+2026-04-09 11:20:58,854 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:20:58,855 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+She is a 
+
+
+woman.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:21:07,062 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.\n is a \n\n\nwoman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:21:07,062 [INFO] root: Sentence for prompt: I will be with the president tomorrow.⏎ is a ⏎⏎⏎woman.
+2026-04-09 11:21:07,386 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=['T is a \n\n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:21:07,387 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:21:08,043 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:21:08,043 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president tomorrow.⏎ is a ⏎⏎⏎woman.
+
+OUTPUT:
+Je serai avec le président demain. ⏎ c'est ⏎⏎⏎une ⏎ femme.
+################################################################################
+2026-04-09 11:21:08,426 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=['The presi is a \n\n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:21:08,426 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:21:08,569 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:21:08,570 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+T is a 
+
+
+woman.
+
+OUTPUT:
+Je serai avec le président demain. ⏎
+################################################################################
+2026-04-09 11:21:09,049 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:21:09,050 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The presi is a 
+
+
+woman.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:21:09,146 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=['The president is a \n\n\nwoman.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:21:09,146 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:21:09,790 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:21:09,791 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, gender, number, and tense).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+I will be with the president tomorrow.
+
+AFTER CONTEXT:
+The president is a 
+
+
+woman.
+
+OUTPUT:
+Je serai avec la présidente demain. ⏎
+################################################################################
+2026-04-09 11:21:09,800 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president is a \n\n\nwoman.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:21:09,801 [INFO] root: Sentence for prompt: The president is a ⏎⏎⏎woman.
+2026-04-09 11:21:10,448 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:21:10,449 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+The president is a ⏎⏎⏎woman.
+
+OUTPUT:
+Le président est une ⏎⏎⏎femme.
+################################################################################
