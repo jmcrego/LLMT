@@ -53,61 +53,52 @@ def build_prompt(request: LLMTTranslationRequest) -> str:
     parts = []
     line_feed = "⏎"
 
-    parts.append(
-        f"TASK:\n"
-        f"Translate into {request.target_language}.\n"
-        f"\n"
-    )
+    parts.append(f"TASK:")
+    parts.append(f"Translate into {request.target_language}.")
+    parts.append(f"")
 
     if request.terminology:
-        parts.append("Preferred terminology (use when applicable; inflect as needed):")
+        parts.append("Preferred terminology:")
         for t in request.terminology:
             parts.append(f"- {t.source} → {t.target}")
         parts.append("")
 
     if request.similar_translations:
-        parts.append("Related translations (use when helpful to keep new translations consistent):")
+        parts.append("Related translations:")
         for st in request.similar_translations:
-            parts.append(
-                f"- SRC: {st.source}\n"
-                f"- TGT: {st.target}\n"
-                f"\n"
-            )
+            parts.append(f"- SRC: {st.source}")
+            parts.append(f"- TGT: {st.target}")
+        parts.append("")
 
-    parts.append(
-            f"INSTRUCTIONS:\n"
-            f"- Translate ONLY the INPUT section.\n"
-            f"- Output a natural and correct sentence.\n"
-    )
+    parts.append(f"INSTRUCTIONS:")
+    parts.append(f"- Translate ONLY the INPUT section.")
+    parts.append(f"- Output a natural and correct sentence.")
     if request.context.past or request.context.future:
-        parts.append(
-            f"- Use CONTEXT to resolve meaning (references, gender, number, and tense).\n"
-            f"- Ensure the translation is fully consistent with the CONTEXT.\n"
-            f"- Output ONLY the translation.\n"
-        )
-    parts.append(
-            f"- Preserve all {line_feed} symbols EXACTLY in the same positions as in INPUT.\n"
-    )
-    parts.append("\n")
+        parts.append(f"- Use CONTEXT to resolve meaning (references, agreement).")
+        parts.append(f"- Ensure the translation is fully consistent with the CONTEXT.")
+        parts.append(f"- Output ONLY the translation.")
+    if line_feed in request.sentence:
+        parts.append(f"- Preserve all {line_feed} symbols EXACTLY in the same positions as in INPUT.")
+    parts.append("")
 
     if request.context.past:
-        parts.append("BEFORE CONTEXT:\n")
+        parts.append("BEFORE CONTEXT:")
         for sentence in request.context.past:
-            parts.append(f"{sentence}\n")
-        parts.append("\n")
+            parts.append(f"{sentence}")
+        parts.append("")
 
-    parts.append("INPUT:\n")
-    parts.append(f"{request.sentence}\n")
-    parts.append("\n")
+    parts.append("INPUT:")
+    parts.append(f"{request.sentence}")
+    parts.append("")
 
     if request.context.future:
-        parts.append("AFTER CONTEXT:\n")
+        parts.append("AFTER CONTEXT:")
         for sentence in request.context.future:
-            parts.append(f"{sentence}\n")
-        parts.append("\n")
+            parts.append(f"{sentence}")
+        parts.append("")
 
-    parts.append(f"OUTPUT:\n")
-    return "".join(parts)
+    parts.append("OUTPUT:")
+    return "\n".join(parts)
 
 
 def translate_endpoint(request: LLMTTranslationRequest) -> LLMTTranslateResponse:
