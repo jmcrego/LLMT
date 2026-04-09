@@ -9499,3 +9499,270 @@ I will be with the president tomorrow.
 
 OUTPUT:Je serai avec le président demain.
 ################################################################################
+2026-04-09 11:40:35,332 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president is a woman!' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:40:35,332 [INFO] root: Sentence for prompt: The president is a woman!
+2026-04-09 11:40:35,949 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:40:35,950 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+
+INPUT:
+The president is a woman!
+
+OUTPUT:
+Le président est une femme !
+################################################################################
+2026-04-09 11:40:35,961 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:40:35,961 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:40:36,501 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:40:36,502 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+
+INPUT:
+I will be with the president tomorrow.
+
+OUTPUT:
+Je serai avec le président demain.
+################################################################################
+2026-04-09 11:40:39,359 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='fr' context=Context(past=['The president is a woman!'], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 11:40:39,359 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 11:40:40,034 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 11:40:40,035 [INFO] translate: 
+################################################################################
+TASK:
+Translate into fr.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+
+BEFORE CONTEXT:
+The president is a woman!
+
+INPUT:
+I will be with the president tomorrow.
+
+OUTPUT:
+Je serai avec le président demain.
+################################################################################
+2026-04-09 12:08:34,100 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president is a woman!' target_language='es' context=Context(past=[], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:08:34,101 [INFO] root: Sentence for prompt: The president is a woman!
+2026-04-09 12:08:37,603 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:08:37,603 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+
+INPUT:
+The president is a woman!
+
+OUTPUT:
+¡El presidente es una mujer!
+################################################################################
+2026-04-09 12:08:37,615 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='es' context=Context(past=['The president is a woman!'], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:08:37,615 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 12:08:38,347 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:08:38,348 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+
+BEFORE CONTEXT:
+The president is a woman!
+
+INPUT:
+I will be with the president tomorrow.
+
+OUTPUT:
+Estaré con la presidenta mañana.
+################################################################################
+2026-04-09 12:08:45,406 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president is a woman!' target_language='es' context=Context(past=[], future=['I will be with the president tomorrow.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:08:45,406 [INFO] root: Sentence for prompt: The president is a woman!
+2026-04-09 12:08:45,932 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:08:45,933 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+
+INPUT:
+The president is a woman!
+
+AFTER CONTEXT:
+I will be with the president tomorrow.
+
+OUTPUT:
+¡La presidenta es una mujer!
+################################################################################
+2026-04-09 12:09:53,811 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president \nis a woman!' target_language='es' context=Context(past=[], future=['I will be with the president tomorrow.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:09:53,812 [INFO] root: Sentence for prompt: The president ⏎is a woman!
+2026-04-09 12:09:54,003 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='The president \n\nis a woman!' target_language='es' context=Context(past=[], future=['I will be with the president tomorrow.']) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:09:54,003 [INFO] root: Sentence for prompt: The president ⏎⏎is a woman!
+2026-04-09 12:09:54,517 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:09:54,520 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+The president ⏎is a woman!
+
+AFTER CONTEXT:
+I will be with the president tomorrow.
+
+OUTPUT:
+La presidenta ⏎es una mujer!
+################################################################################
+2026-04-09 12:09:54,904 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:09:54,904 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+- Preserve all ⏎ symbols EXACTLY in the same positions as in INPUT.
+
+INPUT:
+The president ⏎⏎is a woman!
+
+AFTER CONTEXT:
+I will be with the president tomorrow.
+
+OUTPUT:
+¡La presidenta ⏎⏎ es una mujer!
+################################################################################
+2026-04-09 12:09:54,914 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='es' context=Context(past=['The president \n\nis a woman!'], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:09:54,914 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 12:09:55,477 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:09:55,478 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+
+BEFORE CONTEXT:
+The president 
+
+is a woman!
+
+INPUT:
+I will be with the president tomorrow.
+
+OUTPUT:
+Estaré con el presidente mañana.
+################################################################################
+2026-04-09 12:10:14,639 [INFO] translate: 
+REQUEST
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+sentence='I will be with the president tomorrow.' target_language='es' context=Context(past=['The president \nis a woman!'], future=[]) terminology=None similar_translations=None
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+2026-04-09 12:10:14,639 [INFO] root: Sentence for prompt: I will be with the president tomorrow.
+2026-04-09 12:10:15,207 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/generate "HTTP/1.1 200 OK"
+2026-04-09 12:10:15,207 [INFO] translate: 
+################################################################################
+TASK:
+Translate into es.
+
+INSTRUCTIONS:
+- Translate ONLY the INPUT section.
+- Output a natural and correct sentence.
+- Use CONTEXT to resolve meaning (references, agreement).
+- Ensure the translation is fully consistent with the CONTEXT.
+- Output ONLY the translation.
+
+BEFORE CONTEXT:
+The president 
+is a woman!
+
+INPUT:
+I will be with the president tomorrow.
+
+OUTPUT:
+Estaré con el presidente mañana.
+################################################################################
