@@ -6,7 +6,7 @@ A FastAPI application for sentence translation using Large Language Models serve
 - Loads `gemma3:4b` as the default model at startup
 - `/health`: Returns the currently loaded model and service status
 - `/upload`: Pull and activate any model supported by ollama
-- `/translate`: Translate a sentence into a target language, with optional context (previous sentence, terminology, similar translations)
+- `/translate`: Translate a sentence into a target language, with optional context (`past`/`future` sentences), terminology, and similar translations
 
 ## Load `gemma3:4b` with Ollama
 
@@ -41,7 +41,10 @@ Translate a sentence using the active model.
 {
   "sentence": "The cat sat on the mat.",
   "target_language": "French",
-  "previous_sentence": "It was a sunny day.",
+  "context": {
+    "past": ["It was a sunny day."],
+    "future": ["Then it took a nap."]
+  },
   "terminology": [
     {"source": "cat", "target": "chat"}
   ],
@@ -51,7 +54,7 @@ Translate a sentence using the active model.
 }
 ```
 
-Fields `previous_sentence`, `terminology`, and `similar_translations` are optional.
+Fields `context`, `terminology`, and `similar_translations` are optional. Inside `context`, both `past` and `future` are optional and can be empty lists.
 
 ## Setup
 
@@ -208,7 +211,10 @@ curl -sS -X POST "http://localhost:8003/translate" \
 {
   "sentence": "Open the settings panel.",
   "target_language": "Spanish",
-  "previous_sentence": "Click the gear icon in the top right.",
+  "context": {
+    "past": ["Click the gear icon in the top right."],
+    "future": []
+  },
   "terminology": [
     {"source": "settings panel", "target": "panel de configuración"}
   ],

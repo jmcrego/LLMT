@@ -4,7 +4,7 @@ from contextlib import asynccontextmanager
 
 from .health import health_endpoint, LLMTHealthResponse
 from .upload import upload_endpoint, LLMTUploadRequest, LLMTUploadResponse
-from .translate import translate_endpoint, LLMTTranslateRequest, LLMTTranslateResponse
+from .translate import translate_endpoint, LLMTTranslationRequest, LLMTTranslateResponse
 
 
 @asynccontextmanager
@@ -27,7 +27,7 @@ def upload(request: LLMTUploadRequest):
 
 # Translate endpoint, translates a sentence using the loaded model
 @app.post("/translate", response_model=LLMTTranslateResponse)
-def translate(request: LLMTTranslateRequest):
+def translate(request: LLMTTranslationRequest):
     return translate_endpoint(request)
 
 # CORS middleware
