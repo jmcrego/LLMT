@@ -83,7 +83,8 @@ def build_prompt(request: LLMTTranslationRequest) -> str:
     )
     if request.context.past or request.context.future:
         parts.append(
-            f"- Use CONTEXT to resolve meaning.\n"
+            f"- Use CONTEXT to resolve meaning (references, gender, number, and tense).\n"
+            f"- Ensure the translation is fully consistent with the CONTEXT.\n"
             f"- Output ONLY the translation.\n"
         )
     parts.append(
