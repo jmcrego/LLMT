@@ -51,8 +51,6 @@ class LLMTTranslateResponse(BaseModel):
 
 def build_prompt(request: LLMTTranslationRequest) -> str:
     parts = []
-    start_token = "[START]"
-    end_token = "[END]"
     line_feed = "⏎"
 
     parts.append(
