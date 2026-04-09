@@ -98,6 +98,7 @@ def build_prompt(request: LLMTTranslationRequest) -> str:
         parts.append("")
 
     parts.append("OUTPUT:")
+    parts.append("")
     return "\n".join(parts)
 
 
