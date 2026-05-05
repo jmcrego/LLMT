@@ -1,6 +1,7 @@
 import time
 import ollama
 import logging
+import json
 
 from fastapi import HTTPException
 from pathlib import Path
@@ -236,3 +237,73 @@ def translate_endpoint(request: LLMTTranslationRequest) -> LLMTTranslateResponse
         runtime_ms=runtime_s * 1000,
     )
 
+
+async def translate_stream_endpoint(request: LLMTTranslationRequest):
+    """
+    Streaming translation endpoint that yields translation tokens as newline-delimited JSON.
+    Format: {"response":"token","done":false} ... {"response":"","done":true}
+    """
+    tic = time.perf_counter()
+    with model_lock:
+        model = model_store["model"]
+    logger.info(f"\nSTREAM REQUEST\n{':'*80}\n{request}\n{':'*80}")
+
+    sentence_for_prompt = request.sentence.replace("\n", "⏎")
+    if request.source_language != request.target_language:
+        prompt = build_prompt_translate(LLMTTranslationRequest(
+            sentence=sentence_for_prompt,
+            target_language=request.target_language,            
+            context=request.context,
+            terminology=request.terminology,
+            similar_translations=request.similar_translations,
+            fidelity=request.fidelity,
+            formality=request.formality,
+            source_language=request.source_language,
+        ))
+    else:
+        prompt = build_prompt_revise(LLMTTranslationRequest(
+            sentence=sentence_for_prompt,
+            target_language=request.target_language,
+            context=request.context,
+            terminology=request.terminology,
+            similar_translations=request.similar_translations,
+            fidelity=request.fidelity,
+            formality=request.formality,
+            source_language=request.source_language,
+        ))
+
+    try:
+        options = {
+            "temperature": 0.0,     # deterministic
+            "top_p": 1.0,
+            "top_k": 0,
+        }
+        logger.info(f"Sending to model: {model} with streaming enabled")
+        response = ollama.chat(
+            model=model, 
+            messages=[{"role": "user", "content": prompt}],
+            stream=True,
+            think=False,
+            options=options
+        )
+        
+        full_translation = ""
+        for chunk in response:
+            if hasattr(chunk, 'message') and hasattr(chunk.message, 'content'):
+                token = chunk.message.content
+                if token:
+                    full_translation += token
+                    yield json.dumps({"response": token, "done": False}) + "\n"
+        
+        # Replace line feed markers back to actual newlines
+        full_translation = full_translation.replace("⏎", "\n")
+        
+        # Send final marker
+        yield json.dumps({"response": "", "done": True}) + "\n"
+        
+        runtime_s = time.perf_counter() - tic
+        logger.info(f"\n{'#'*80}\n{prompt}{full_translation}\n{'#'*80}\nStreaming completed in {runtime_s*1000:.2f}ms")
+        
+    except Exception as e:
+        logger.error(f"Streaming translation failed: {e}")
+        yield json.dumps({"error": str(e), "done": True}) + "\n"

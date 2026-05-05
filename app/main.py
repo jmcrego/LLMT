@@ -1,10 +1,11 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import StreamingResponse
 from contextlib import asynccontextmanager
 
 from .health import health_endpoint, LLMTHealthResponse
 from .upload import upload_endpoint, LLMTUploadRequest, LLMTUploadResponse
-from .translate import translate_endpoint, LLMTTranslationRequest, LLMTTranslateResponse
+from .translate import translate_endpoint, translate_stream_endpoint, LLMTTranslationRequest, LLMTTranslateResponse
 
 
 @asynccontextmanager
@@ -29,6 +30,11 @@ def upload(request: LLMTUploadRequest):
 @app.post("/translate", response_model=LLMTTranslateResponse)
 def translate(request: LLMTTranslationRequest):
     return translate_endpoint(request)
+
+# Streaming translate endpoint, streams translation tokens in real-time
+@app.post("/translate-stream")
+def translate_stream(request: LLMTTranslationRequest):
+    return StreamingResponse(translate_stream_endpoint(request), media_type="application/x-ndjson")
 
 # CORS middleware
 app.add_middleware(
