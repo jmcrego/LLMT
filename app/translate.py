@@ -243,6 +243,7 @@ async def translate_stream_endpoint(request: LLMTTranslationRequest):
     Streaming translation endpoint that yields translation tokens as newline-delimited JSON.
     Format: {"response":"token","done":false} ... {"response":"","done":true}
     """
+    import asyncio
     tic = time.perf_counter()
     with model_lock:
         model = model_store["model"]
@@ -294,6 +295,7 @@ async def translate_stream_endpoint(request: LLMTTranslationRequest):
                 if token:
                     full_translation += token
                     yield json.dumps({"response": token, "done": False}) + "\n"
+                    await asyncio.sleep(0)  # Yield control for immediate flushing
         
         # Replace line feed markers back to actual newlines
         full_translation = full_translation.replace("⏎", "\n")

@@ -33,7 +33,7 @@ def translate(request: LLMTTranslationRequest):
 
 # Streaming translate endpoint, streams translation tokens in real-time
 @app.post("/translate-stream")
-def translate_stream(request: LLMTTranslationRequest):
+async def translate_stream(request: LLMTTranslationRequest):
     return StreamingResponse(translate_stream_endpoint(request), media_type="application/x-ndjson")
 
 # CORS middleware
